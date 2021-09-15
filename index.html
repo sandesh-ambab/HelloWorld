@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="border">
+            <h1>Assignment</h1>
+        </header>
+        <nav class="border">
+            <div class="btn">
+                <a href="#">Home</a>    
+                <a href="#" onclick="dropdown()" class="dropdown">Dropdown</a>
+                	<div id="myDropdown" class="dropdown-content">	
+						<li>list</li>
+						<li>list</li>
+						<li>list</li>
+						<li>list</li>
+					</div>
+                <a href="form.html">Contact Form</a>
+                <a href="#">Login</a>
+
+            </div>
+
+        </nav>
+        <section class="border">
+            <article class="border">
+                <div class="articleBox">
+                    <h6 class="border">Hgroup</h6>
+                    <hgroup class="border">
+                    	<p>Calculator Javascript Assignment</p>
+							<input type="number" id="num1" placeholder="Enter number 1" required><br><br>
+							<input type="number" id="num2" placeholder="Enter number 2" required><br><br>
+						<div class="btn">
+							<button id="add" onclick="add()">+</button>
+							<button id="sub" onclick="sub()">-</button>
+							<button id="mult" onclick="mult()">*</button>
+							<button id="div" onclick="div()">/</button>
+							<button id="mod" onclick="mod()">%</button>
+                            <button id="reset" onclick="reset()">reset</button><br><br><br>
+						</div>
+						<p id="result"></p>
+					</hgroup>
+                </div>
+                <aside class="border inside">
+                    <p>Calculator Jquery Assignment</p>
+                            <input type="number" id="number1" placeholder="Enter number 1" required><br><br>
+                            <input type="number" id="number2" placeholder="Enter number 2" required><br><br>
+                        <div class="btn">
+                            <button id="add1">+</button>
+                            <button id="sub1">-</button>
+                            <button id="mult1">*</button>
+                            <button id="div1">/</button>
+                            <button id="reset1">reset</button><br><br><br>
+                        </div>
+                        <p id="result1"></p>
+                </aside>
+            </article>
+            <div class="border outside">
+                
+                <div class="accordion">
+                    <ul class="tabs">
+                        <li class="tab-link active" data-tab="tab-1">Tab1</li>
+    
+                        <li class="tab-link" data-tab="tab-2">Tab2</li>
+                    </ul>
+
+                    <div id="tab-1" class="tab-content active">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Accordion 1</h2>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                            
+                        </div>
+                    
+                        <div class="card-header">
+                            <h2>Accordion 2</h2>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                        </div>
+                    
+                        <div class="card-header">
+                            <h2>Accordion 3</h2>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div id="tab-2" class="tab-content">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>lorem 1</h2>
+                        </div>
+                        <div class="card-body">
+                            <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                        </div>
+                        <div class="card-header">
+                            <h2>lorem 2</h2>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="card-header">
+                            <h2>lorem 3</h2>
+                        </div>
+                        <div class="card-body">
+                            <p>Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        <footer class="border footer">
+            <p>Ambab Infotech Pvt. Ltd.</p>
+            <a class= "a1" href="/">sandesh.chavan@ambab.com</a>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="external.js"></script>
+</body>
+</html>
+	
